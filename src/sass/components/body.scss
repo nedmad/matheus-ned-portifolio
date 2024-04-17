@@ -1,0 +1,84 @@
+
+section{
+    padding: 30px 0;
+    background-color: $color-primary;
+
+
+    .SobreOqueFaco{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        
+        
+        .caminho{
+            display: flex;
+            gap: 30px;
+            a{
+                font-size: 19px;
+                text-decoration: none;
+                color: $color-secondary;
+                &:hover{
+                    border-bottom: 3px solid  $color-secondary;
+                }
+            }
+            .active{
+                border-bottom: 3px solid  $color-secondary;
+            }
+        }
+    }
+
+    
+    .project, .tec{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        //pagina sobre projetos
+
+        .cart{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px 30px;
+            color: $color-secondary;
+            box-shadow: 3px 3px 30px 3px black;
+            border-radius: 10px;
+            padding: 60px;
+
+            .imageProject{
+                background-image: url(../../../public/projetoDrop.png);
+                background-repeat: no-repeat;
+                background-size: 100% auto;
+                background-position: center;
+                border-radius: 10px;
+                width: 100%;
+                padding: 100px 0;
+            }
+           
+        }
+        
+        //pagina sobre habilidade tecnicas
+        .tecUdo{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+
+            .frames{
+                text-align: center;
+                color: $color-secondary;
+
+                .imagem{
+                    width: 100px;
+                    height: 100px;
+                    background-repeat: no-repeat;
+                    background-size: auto 100%;
+                    background-position: center;
+                }
+            }
+            
+
+        }
+
+        
+    }
+   
+}

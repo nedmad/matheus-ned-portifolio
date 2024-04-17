@@ -1,0 +1,72 @@
+@media screen and (max-width:1000px){
+    
+    //body
+      //pagina sobre habilidade tecnicas
+      .project{
+        //pagina sobre projetos
+
+        .cart{
+            display: grid;
+            grid-template-columns: 1fr !important;
+          
+
+            .imageProject{
+                background-color: rgb(0, 55, 255);
+            }
+           
+        }
+    
+}
+}
+
+
+
+@media screen and (max-width:800px){
+    //header sobre tecnologia
+    header{
+        padding: 0 10px;
+        .conteudo{
+            display:block !important;
+            
+            img{
+                margin-left: 20px;
+            }
+
+            .sobre{
+                min-width: 0;
+
+            }
+
+        }
+    }
+
+    //body
+      //pagina sobre habilidade tecnicas
+      .tecUdo{
+        .frames{
+          
+
+            .imagem{
+                width: 70px !important;
+                height: 70px !important;
+         
+            }
+        }
+        
+
+    }
+    
+}
+
+@media screen and (max-width:488px){
+   
+    //body
+      //pagina sobre habilidade tecnicas
+      .tecUdo{
+        grid-template-columns: repeat(3,1fr) !important;
+
+        
+
+    }
+    
+}

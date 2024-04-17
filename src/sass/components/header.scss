@@ -1,0 +1,74 @@
+header{
+    background-image: url(../../../public/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    height: 90vh;
+    color: $color-secondary;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;  
+    padding: 30px 100px;
+    box-shadow: 3px 3px 30px 1px black;
+    min-height: 700px;
+
+
+
+
+ 
+    .conteudo{
+        display:flex;
+        justify-content: left;
+        align-items: center;
+        
+        .sobre{
+            max-width: 700px;
+            min-width: 500px;
+            text-align: left;
+            margin-left: 50px;
+            h2{
+                font-family: "Bebas Neue", sans-serif;
+            }
+        }
+        .meAmpliar{
+            position: absolute;
+            top:10%;
+            left: 30%;
+            width: 60%;
+            height: 70vh;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 60px;
+            margin-top: -100px;
+            cursor: pointer;
+        }
+        strong{
+            color: rgb(6, 247, 147);
+            font-size: 18px;
+        }
+    }
+
+    .maisInfo{
+        display: flex;
+        gap: 15px;
+        margin-top: 30px;
+        margin-left: 40px;
+        
+        .infoMe{
+            width:50px;
+            height: 50px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            border-radius: 10px;
+
+            &:hover{
+                background-color: rgb(123, 0, 245);
+            }
+        }
+    }
+    
+   
+}
