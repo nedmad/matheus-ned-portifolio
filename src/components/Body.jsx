@@ -3,12 +3,12 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 
 export default function Body() {
   const { pathname } = useLocation();
- /*const linkRef = useRef(null)
+ const linkRef = useRef(null)
   useEffect(()=>{
     if(linkRef.current){
       linkRef.current.click();
     }
-  },[])*/
+  },[])
 
   
   return (
@@ -19,7 +19,7 @@ export default function Body() {
             <div className="caminho">
               <Link
                 to={"/matheus-ned-portifolio/tecnologia"}
-                /*ref={linkRef} */
+                ref={linkRef} 
                 className={pathname == "/tecnologia" ? "active" : ""}
               >
                 <strong>Habilidades</strong>
