@@ -7,15 +7,15 @@ import Projetos from "../pages/Projetos";
 
 export const Routerpro = createBrowserRouter([
     {
-        path:"/",
+        path:"/matheus-ned-portifolio",
         element:<HomePage/>,
         children:[
             {
-                path:"/tecnologia",
+                path:"/matheus-ned-portifolio/tecnologia",
                 element:<Tecnologi/>
             },
             {
-                path:"/projetos",
+                path:"/matheus-ned-portifolio/projetos",
                 element:<Projetos/>
             }
         ]

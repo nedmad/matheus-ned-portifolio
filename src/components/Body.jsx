@@ -18,7 +18,7 @@ export default function Body() {
           <div className="SobreOqueFaco">
             <div className="caminho">
               <Link
-                to={"/tecnologia"}
+                to={"/matheus-ned-portifolio/tecnologia"}
                 ref={linkRef}
                 className={pathname == "/tecnologia" ? "active" : ""}
               >
@@ -26,7 +26,7 @@ export default function Body() {
               </Link>
               <Link
                 to={"/projetos"}
-                className={pathname == "/projetos" ? "active" : ""}
+                className={pathname == "/matheus-ned-portifolio/projetos" ? "active" : ""}
               >
                 <strong>Projetos</strong>
               </Link>
