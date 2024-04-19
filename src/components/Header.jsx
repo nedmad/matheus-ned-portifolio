@@ -1,18 +1,18 @@
 import { useContext } from "react";
 import { Context } from "../hooks/Context";
-import me from "../../public/me.jpg"
+import {me} from "../../public/imagens"
+import {fundo} from "../../public/imagens"
 
 export default function Header() {
- const {imagens,Ampliar, setAmpliar} = useContext(Context);
+ const {imagens} = useContext(Context);
 
   
   return (
     <>
-      <header>
+      <header style={{backgroundImage:`url(${fundo})`}}>
         <div className="quemSou">
           <div className="conteudo" data-aos="zoom-in">
-            <img src={me} className={Ampliar}
-             onClick={(val)=> setAmpliar(val.target.className == ""?"meAmpliar":"")} alt="" />
+            <img src={me} alt="" />
             <div className="sobre">
               <h2>Olá, sou o Matheus Ned</h2>
               <p>

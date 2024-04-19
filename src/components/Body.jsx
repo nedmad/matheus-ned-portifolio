@@ -13,7 +13,7 @@ export default function Body() {
   
   return (
     <>
-      <section className="container-flui">
+      <section className="container-fluid">
         <div className="container">
           <div className="SobreOqueFaco">
             <div className="caminho">
@@ -25,8 +25,8 @@ export default function Body() {
                 <strong>Habilidades</strong>
               </Link>
               <Link
-                to={"/projetos"}
-                className={pathname == "/matheus-ned-portifolio/projetos" ? "active" : ""}
+                to={"/matheus-ned-portifolio/projetos"}
+                className={pathname == "/projetos" ? "active" : ""}
               >
                 <strong>Projetos</strong>
               </Link>
