@@ -3,7 +3,11 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:["/matheus-ned-portifolio","/matheus-ned-portifolio/tecnologia","/matheus-ned-portifolio/projetos"],
+  optimizeDeps:{
+    'base1':["/matheus-ned-portifolio/"],
+    'base2':["/matheus-ned-portifolio/tecnologia"],
+    'base3':["/matheus-ned-portifolio/projetos"]
+  },
   plugins: [react()]
 
 })
