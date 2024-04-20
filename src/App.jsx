@@ -6,7 +6,7 @@ export default function App() {
   return (
     <>
       <ContextItems>
-        <RouterProvider router={Routerpro} />
+        <RouterProvider router={Routerpro} basename={"/matheus-ned-portifolio"}  />
       </ContextItems>
     </>
   );

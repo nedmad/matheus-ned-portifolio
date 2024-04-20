@@ -20,13 +20,13 @@ export default function Body() {
               <Link
                 to={"/matheus-ned-portifolio/tecnologia"}
                 ref={linkRef} 
-                className={pathname == "/tecnologia" ? "active" : ""}
+                className={pathname == "/matheus-ned-portifolio/tecnologia" ? "active" : ""}
               >
                 <strong>Habilidades</strong>
               </Link>
               <Link
                 to={"/matheus-ned-portifolio/projetos"}
-                className={pathname == "/projetos" ? "active" : ""}
+                className={pathname == "/matheus-ned-portifolio/projetos" ? "active" : ""}
               >
                 <strong>Projetos</strong>
               </Link>
