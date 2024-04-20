@@ -17,9 +17,7 @@ export const Routerpro = createBrowserRouter([
             {
                 path:"/matheus-ned-portifolio/projetos",
                 element:<Projetos/>
-            },
-            
+            }
         ]
-    },
-    { basename: import.meta.env.DEV ? '/' : '/matheus-ned-portifolio/' }
+    }
 ])
