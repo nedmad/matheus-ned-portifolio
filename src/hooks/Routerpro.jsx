@@ -10,6 +10,7 @@ export const Routerpro = createHashRouter([
         
         path:"/",
         element:<HomePage/>,
+        //novo router
         children:[
             {
                 path:"/tecnologia",
