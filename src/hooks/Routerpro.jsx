@@ -12,11 +12,11 @@ export const Routerpro = createHashRouter([
         element:<HomePage/>,
         children:[
             {
-                path:"/matheus-ned-portifolio/tecnologia",
+                path:"/tecnologia",
                 element:<Tecnologi/>
             },
             {
-                path:"/matheus-ned-portifolio/projetos",
+                path:"/projetos",
                 element:<Projetos/>
             }
         ]

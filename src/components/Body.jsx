@@ -18,15 +18,15 @@ export default function Body() {
           <div className="SobreOqueFaco">
             <div className="caminho">
               <Link
-                to={"/matheus-ned-portifolio/tecnologia"}
+                to={"/tecnologia"}
                 ref={linkRef} 
-                className={pathname == "/matheus-ned-portifolio/tecnologia" ? "active" : ""}
+                className={pathname == "/tecnologia" ? "active" : ""}
               >
                 <strong>Habilidades</strong>
               </Link>
               <Link
-                to={"/matheus-ned-portifolio/projetos"}
-                className={pathname == "/matheus-ned-portifolio/projetos" ? "active" : ""}
+                to={"/projetos"}
+                className={pathname == "/projetos" ? "active" : ""}
               >
                 <strong>Projetos</strong>
               </Link>
