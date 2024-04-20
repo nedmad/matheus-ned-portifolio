@@ -1,14 +1,14 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import Tecnologi from "../pages/Tecnologi";
 import Projetos from "../pages/Projetos";
 
 
 
-export const Routerpro = createBrowserRouter([
+export const Routerpro = createHashRouter([
     {
         
-        path:"/matheus-ned-portifolio",
+        path:"/",
         element:<HomePage/>,
         children:[
             {
