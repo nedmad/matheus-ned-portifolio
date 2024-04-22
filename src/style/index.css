@@ -6,6 +6,7 @@
 html, body {
   height: 100vh;
   font-family: "Merriweather", serif;
+  font-size: 23px;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
   align-items: center;
   padding: 30px 100px;
   box-shadow: 3px 3px 30px 1px black;
-  min-height: 700px;
+  min-height: 900px;
 }
 header .conteudo {
   display: flex;
@@ -30,10 +31,17 @@ header .conteudo .sobre {
   max-width: 700px;
   min-width: 500px;
   text-align: left;
-  margin-left: 50px;
+  background-color: rgba(76, 6, 253, 0.575);
+  padding: 20px;
+  border-radius: 13px;
 }
 header .conteudo .sobre h2 {
   font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+}
+header .conteudo .sobre strong {
+  font-size: 20px;
+  color: rgb(0, 246, 250);
 }
 header .conteudo .meAmpliar {
   position: absolute;
@@ -43,14 +51,12 @@ header .conteudo .meAmpliar {
   height: 70vh;
 }
 header .conteudo img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 60px;
-  margin-top: -100px;
-}
-header .conteudo strong {
-  color: rgb(6, 247, 147);
-  font-size: 18px;
+  margin-top: -200px;
+  margin-bottom: 30px;
+  margin-right: 50px;
 }
 header .maisInfo {
   display: flex;
@@ -107,15 +113,16 @@ section .project .cart, section .tec .cart {
   color: rgb(231, 228, 238);
   box-shadow: 3px 3px 30px 3px black;
   border-radius: 10px;
-  padding: 60px;
+  padding: 30px 40px;
+  max-width: 1300px;
 }
 section .project .cart .imageProject, section .tec .cart .imageProject {
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
   border-radius: 10px;
   width: 100%;
-  padding: 100px 0;
+  min-height: 300px;
 }
 section .project .tecUdo, section .tec .tecUdo {
   display: grid;
@@ -139,11 +146,8 @@ section .project .tecUdo .frames .imagem, section .tec .tecUdo .frames .imagem {
     display: grid;
     grid-template-columns: 1fr !important;
   }
-  .project .cart .imageProject {
-    background-color: rgb(0, 55, 255);
-  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 806px) {
   header {
     padding: 0 10px;
   }
@@ -151,6 +155,11 @@ section .project .tecUdo .frames .imagem, section .tec .tecUdo .frames .imagem {
     display: block !important;
   }
   header .conteudo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     margin-left: 20px;
   }
   header .conteudo .sobre {
