@@ -8,6 +8,9 @@ html, body {
   font-family: "Merriweather", serif;
   font-size: 23px;
 }
+html a, body a {
+  text-decoration: none !important;
+}
 
 header {
   background-repeat: no-repeat;

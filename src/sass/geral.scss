@@ -8,6 +8,11 @@ html,body{
     height: 100vh;
     font-family: "Merriweather", serif;
     font-size: 23px;
+    
 
+    a{
+        //tirar todas decoracoes de link do site
+        text-decoration: none !important;
+    }
 
 }
