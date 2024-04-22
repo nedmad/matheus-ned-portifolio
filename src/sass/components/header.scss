@@ -3,15 +3,15 @@ header{
     
     background-repeat: no-repeat;
     background-size: cover ;
-    background-position: center;
     height: 90vh;
+    min-height: 700px;
+    background-position: center;
     color: $color-secondary;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;  
     padding: 120px 100px;
     box-shadow: 3px 3px 30px 1px black;
-    min-height: 1500px;
 
 
 
@@ -21,7 +21,6 @@ header{
         display:flex;
         justify-content: left;
         align-items: center;
-        
         .sobre{
             max-width: 700px;
             min-width: 500px;
@@ -64,6 +63,7 @@ header{
         gap: 15px;
         margin-top: 30px;
         margin-left: 40px;
+        padding: 20px 0px 50px 0px;
         
         .infoMe{
             width:50px;

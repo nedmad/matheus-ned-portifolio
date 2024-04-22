@@ -12,3 +12,4 @@ export {default as reactImage} from "./react.png";
 export {default as sassImage} from "./sass.png";
 export {default as gitImage} from "./git.png";
 export {default as pdf} from "./curriculo.pdf";
+export {default as infolibre} from "./infolibre.png";

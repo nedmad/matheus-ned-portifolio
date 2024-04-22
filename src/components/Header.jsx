@@ -17,12 +17,12 @@ export default function Header() {
               <h2>Olá, sou o Matheus Ned</h2>
               <p>
                 Sou um dev Front-End. Apaixonado em aprender e conhecer novas
-                tecnologias, sempre procuro novos conhecimentos para aperfeicoar
+                tecnologias, sempre procuro novos conhecimentos para aperfeiçoar
                 minhas habilidades, e trabalhar com projetos desafiadores.
-                Procuro evolui na area em geral, nao apenas no Front-End.
-                Trabalhei no Mix mateus super mercado como CPD
+                Procuro evoluir na área em geral, não apenas no Front-End.
+                Trabalhei no Mix mateus super mercado, como CPD
                 {"(Tecnologia Da Informacao)"}, por 5 meses. <strong>Tenho Habilidades com
-                  html-5, css-3, design responsivo, react, sass e git-github</strong>.
+                  html-5, css-3, design responsivo, react, sass, bootstrap e git-github</strong>.
               </p>
             </div>
           </div>
