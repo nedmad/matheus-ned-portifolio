@@ -12,8 +12,6 @@ html, body {
 header {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
-  min-height: 700px;
   background-position: center;
   color: rgb(231, 228, 238);
   display: grid;
@@ -43,13 +41,6 @@ header .conteudo .sobre strong {
   font-size: 20px;
   color: rgb(0, 246, 250);
 }
-header .conteudo .meAmpliar {
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  width: 60%;
-  height: 70vh;
-}
 header .conteudo img {
   width: 150px;
   height: 150px;
@@ -62,8 +53,7 @@ header .maisInfo {
   display: flex;
   gap: 15px;
   margin-top: 30px;
-  margin-left: 40px;
-  padding: 20px 0px 50px 0px;
+  margin: 50px 0px 100px 40px;
 }
 header .maisInfo .infoMe {
   width: 50px;

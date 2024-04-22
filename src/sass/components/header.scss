@@ -3,8 +3,6 @@ header{
     
     background-repeat: no-repeat;
     background-size: cover ;
-    height: 90vh;
-    min-height: 700px;
     background-position: center;
     color: $color-secondary;
     display: grid;
@@ -40,13 +38,7 @@ header{
 
             }
         }
-        .meAmpliar{
-            position: absolute;
-            top:10%;
-            left: 30%;
-            width: 60%;
-            height: 70vh;
-        }
+      
         img{
             width: 150px;
             height: 150px;
@@ -62,8 +54,7 @@ header{
         display: flex;
         gap: 15px;
         margin-top: 30px;
-        margin-left: 40px;
-        padding: 20px 0px 50px 0px;
+        margin: 50px 0px 100px 40px;
         
         .infoMe{
             width:50px;
