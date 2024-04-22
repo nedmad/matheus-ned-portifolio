@@ -19,9 +19,7 @@ export default function Header() {
                 Sou um dev Front-End. Apaixonado em aprender e conhecer novas
                 tecnologias, sempre procuro novos conhecimentos para aperfeiçoar
                 minhas habilidades, e trabalhar com projetos desafiadores.
-                Procuro evoluir na área, em geral, não apenas no Front-End.
-                Trabalhei no Mix mateus super mercado, como CPD
-                {"(Tecnologia Da Informacao)"}, por 5 meses. <strong>Tenho Habilidades com
+                Procuro evoluir na área, em geral, não apenas no Front-End. <strong>Tenho Habilidades com
                   html-5, css-3, design responsivo, react, sass, bootstrap e git-github</strong>.
               </p>
             </div>

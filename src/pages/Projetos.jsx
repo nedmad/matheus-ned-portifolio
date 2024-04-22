@@ -12,7 +12,7 @@ export default function Projetos() {
           <div className="conteudoProject">
             <h3>Infolibre markert</h3>
             <p>
-              Um projeto feito por min, com o objeivo de vender produtos e
+              Um projeto feito por mim, com o objetivo de vender produtos e
               infoprodutos afiliados. Site construído com react, sass e
               bootstrap.
             </p>
