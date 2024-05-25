@@ -61,12 +61,24 @@
     
 }
 
-@media screen and (max-width:488px){
+@media screen and (max-width:600px){
    
     //body
       //pagina sobre habilidade tecnicas
       .tecUdo{
         grid-template-columns: repeat(3,1fr) !important;
+
+        
+
+    }
+    
+}
+@media screen and (max-width:260px){
+   
+    //body
+      //pagina sobre habilidade tecnicas
+      .tecUdo{
+        grid-template-columns: repeat(2,1fr) !important;
 
         
 

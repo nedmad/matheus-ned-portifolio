@@ -6,6 +6,7 @@ import {
   htmlImage,
   cssImage,
   jsImage,
+  typeImage,
   reactImage,
   sassImage,
   gitImage,
@@ -39,9 +40,10 @@ export function ContextItems({ children }) {
     { id: "1", img: htmlImage, nome: "html" },
     { id: "2", img: cssImage, nome: "css" },
     { id: "3", img: jsImage, nome: "js" },
-    { id: "4", img: reactImage, nome: "react" },
-    { id: "5", img: sassImage, nome: "sass" },
-    { id: "6", img: gitImage, nome: "git" },
+    { id: "4", img: typeImage, nome: "typescript" },
+    { id: "5", img: reactImage, nome: "react" },
+    { id: "6", img: sassImage, nome: "sass" },
+    { id: "7", img: gitImage, nome: "git" },
   ];
 
   const items = { imagens, imagensTec };

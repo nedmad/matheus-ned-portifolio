@@ -120,7 +120,7 @@ section .project .cart .imageProject, section .tec .cart .imageProject {
 }
 section .project .tecUdo, section .tec .tecUdo {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   gap: 10px;
 }
 section .project .tecUdo .frames, section .tec .tecUdo .frames {
@@ -164,9 +164,14 @@ section .project .tecUdo .frames .imagem, section .tec .tecUdo .frames .imagem {
     height: 70px !important;
   }
 }
-@media screen and (max-width: 488px) {
+@media screen and (max-width: 600px) {
   .tecUdo {
     grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+@media screen and (max-width: 260px) {
+  .tecUdo {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 

@@ -20,7 +20,7 @@ export default function Header() {
                 tecnologias, sempre procuro novos conhecimentos para aperfeiçoar
                 minhas habilidades, e trabalhar com projetos desafiadores.
                 Procuro evoluir na área, em geral, não apenas no Front-End. <strong>Tenho Habilidades com
-                  html-5, css-3, design responsivo, react, sass, bootstrap e git-github</strong>.
+                html-5, css-3, javascript, typescript, design responsivo, react, sass, bootstrap e git-github</strong>.
               </p>
             </div>
           </div>
